@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'LexendBold';
+  src: url('../fonts/Lexend-Bold.ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'LexendRegular';
+  src: url('../fonts/Lexend-Regular.ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'MontserratExtraBold';
+  src: url('../fonts/Montserrat-ExtraBold.ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url('../fonts/Montserrat-SemiBold.ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+}
