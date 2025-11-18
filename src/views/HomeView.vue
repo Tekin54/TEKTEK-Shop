@@ -32,10 +32,7 @@
       style="z-index: 1"
     >
       <video ref="video" style="width: 100%; height: auto" muted loop>
-        <source
-          src="http://localhost:8080/Kvell Apparel Co. - Clothing Brand Promo Video.mp4"
-          type="video/mp4"
-        />
+        <source src="/Kvell Apparel Co. - Clothing Brand Promo Video.mp4" type="video/mp4" />
       </video>
       <p class="absolute-center column text-white">
         <span
@@ -63,7 +60,7 @@
           <div class="img-container">
             <q-img
               class="image"
-              src="http://localhost:8080/unisex-basic-softstyle-t-shirt-black-right-front-602c03dcdb607_1200x1200.webp"
+              src="/unisex-basic-softstyle-t-shirt-black-right-front-602c03dcdb607_1200x1200.webp"
               alt="Herren T-shirt"
             ></q-img>
           </div>
@@ -73,7 +70,7 @@
           <div class="img-container">
             <q-img
               class="image"
-              src="http://localhost:8080/damen-strickfleece-jacke-oesterreich_1400x.webp"
+              src="/damen-strickfleece-jacke-oesterreich_1400x.webp"
               alt="Damen Strickfleece"
             ></q-img>
           </div>
@@ -112,12 +109,12 @@ import { ref, onMounted, onUnmounted } from 'vue';
 
 // Definiere ein Array von Artikeln mit Beschreibungen und Bildquellen
 const items = [
-  { label: 'Jeans & Hosen', src: 'http://localhost:8080/hose_damen_eisk_gele_1.png' },
-  { label: 'T-Shirts', src: 'http://localhost:8080/f6f03570-fd7e-4ab5-b190-db8496381e16.avif' },
-  { label: 'Unterwäsche', src: 'http://localhost:8080/nads-boxer-briefs_grande.webp' },
-  { label: 'Jacken & Mäntel', src: 'http://localhost:8080/jacket_blackgold-600x600.png' },
-  { label: 'Accessoires', src: 'http://localhost:8080/2fde97d7e9081a843c3f728d4e9e-600x600.png' },
-  { label: 'Taschen', src: 'http://localhost:8080/PP3842K_41_dunkelblau_600x600.png' },
+  { label: 'Jeans & Hosen', src: '/hose_damen_eisk_gele_1.png' },
+  { label: 'T-Shirts', src: '/f6f03570-fd7e-4ab5-b190-db8496381e16.avif' },
+  { label: 'Unterwäsche', src: '/nads-boxer-briefs_grande.webp' },
+  { label: 'Jacken & Mäntel', src: '/jacket_blackgold-600x600.png' },
+  { label: 'Accessoires', src: '/2fde97d7e9081a843c3f728d4e9e-600x600.png' },
+  { label: 'Taschen', src: '/PP3842K_41_dunkelblau_600x600.png' },
 ];
 
 // Initialisiere Referenzen für das Video und den Videoabschnitt
